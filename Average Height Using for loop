@@ -1,0 +1,12 @@
+student_list = []
+number_elements = int(input("Enter the number of elements in the list: "))
+for i in range(number_elements):
+    elements = int(input("Enter the elements: "))
+    student_list.append(elements)
+
+total = 0
+for i in student_list:
+    total += i
+    average = total/len(student_list)
+print(average)
+    
